@@ -43,7 +43,7 @@ var game={
            var r=Math.floor(Math.random()*this.RN);
            var c=Math.floor(Math.random()*this.CN);
            if(this.data[r][c]==0){
-            this.data[r][c]=Math.random()<0.5?8:8;
+            this.data[r][c]=Math.random()<0.5?2:4;
             break;
            }
     	}
